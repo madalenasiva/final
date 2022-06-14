@@ -1,0 +1,57 @@
+
+h1{
+    font-size: 30px;
+    background-color: rgb(30, 179, 122);
+    
+}
+form{
+    margin: 0 auto;
+    width: 500px ;
+/* centralizar o form na pagina*/
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 1em;
+    text-align: center; 
+    }
+
+    form li+li{
+        margin-top: 1em;
+    }
+
+        label{
+            display: inline block;
+            width: 110px;
+        text-align: right;
+    
+        }
+
+        input,
+       textarea{
+           font: 1em sans-serif;
+           width:200px ;
+           box-sizing: border-box;
+            border: 1px solid-SERIF;
+            background-color: rgb(204, 169, 14);
+       }
+
+       textarea{
+           vertical-align: top;
+           height: 2em;
+           background-color: rgb(236, 136, 13);
+           
+       }
+       form{
+           font-size: 12;
+       }
+     .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      align-content: center;
+      row-gap: 10px;
+      column-gap: 40px;
+      background-color: rgb(223, 86, 86);
+      
+        }
